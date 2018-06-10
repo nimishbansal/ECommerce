@@ -5,17 +5,56 @@
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
-<h1>{% trans "Sign Up" %}</h1>
 
-<p>{% blocktrans %}hmm Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+{% load static %}
 
-<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-  {% csrf_token %}
-  {{ form.as_p }}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-  {% endif %}
-  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
-</form>
+{% load account socialaccount %}
+
+
+{% get_providers as socialaccount_providers %}
+
+
+<link rel="stylesheet" href="{% static 'account/signupPagestyle.css' %}">
+
+<div id="login-box">
+    <div class="left">
+        <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+            {% endif %}
+            <button type="submit">{% trans "Sign me Up" %} &raquo;</button>
+        </form>
+    </div>
+
+    {% if socialaccount_providers %}
+    <div class="right">
+        <div class="socialaccount_providers">
+            <ul style="list-style-type: none;padding: 0px;margin: 0px">
+                {% include "socialaccount/snippets/provider_list.html" with process="login" %}
+
+
+            </ul>
+
+        </div>
+    </div>
+    {% include "socialaccount/snippets/login_extra.html" %}
+
+    {% else %}
+
+    {% endif %}
+
+</div>
+
+
+
 
 {% endblock %}
+
+
+
+
+
+
+

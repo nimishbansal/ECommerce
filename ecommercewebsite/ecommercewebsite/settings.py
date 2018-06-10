@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'accounts',
+
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -146,7 +148,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    '/var/www/static/',
+]
 
 
 ACCOUNT_AUTHENTICATION_METHOD = "username_email"
+ACCOUNT_FORMS = {'signup': 'accounts.forms.CustomizedSignupForm'}

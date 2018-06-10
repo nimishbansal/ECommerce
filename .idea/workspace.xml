@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb27ecc-6420-4bc3-917d-0dc575f805f6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/account_inactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/email_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/password_reset_from_key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/password_reset_from_key_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/password_set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/signup_closed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/verification_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/verified_email_required.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MomDadECommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MomDadECommerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommercewebsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,17 +25,26 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="221">
+              <caret line="157" column="63" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="45" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -54,17 +52,20 @@
       <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="131">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py">
+      <file leaf-file-name="signupPagestyle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="41">
+              <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -74,9 +75,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hmm</find>
+      <find>in</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,13 +94,20 @@
       <list>
         <option value="$PROJECT_DIR$/ecommercewebsite/auth/models.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/auth/admin.py" />
-        <option value="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/auth_app/models.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/auth_app/admin.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/account/apps.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/accounts/templates/signup.html" />
-        <option value="$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/accounts/templates/accounts/user_profile.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/accounts/views.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/static/account/signupPage.css" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/accounts/forms.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/base.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css" />
       </list>
     </option>
   </component>
@@ -133,14 +148,36 @@
               <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
               <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
               <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -149,9 +186,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/webstuff/practice/myblog" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -195,9 +233,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039154" side_tool="true" weight="0.77379096" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32917318" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49960846" visible="true" weight="0.2652106" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49960846" visible="true" weight="0.42901716" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25371966" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -232,6 +270,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -239,6 +280,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -247,31 +291,96 @@
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/auth_app/admin.py" />
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/auth_app/models.py" />
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/account/apps.py" />
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py">
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="197">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="197">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/templates/accounts/user_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/allauth/account/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/allauth/account/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="380" column="16" lean-forward="true" selection-start-line="380" selection-start-column="16" selection-end-line="380" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="221">
+          <caret line="157" column="63" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
         </state>
       </provider>
     </entry>
