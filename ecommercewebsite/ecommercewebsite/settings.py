@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'accounts',
+    'products',
 
     'allauth',
     'allauth.account',
@@ -153,6 +154,10 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 
+
+MEDIA_URL="/media/"
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 ACCOUNT_AUTHENTICATION_METHOD = "username_email"
 ACCOUNT_FORMS = {'signup': 'accounts.forms.CustomizedSignupForm'}
