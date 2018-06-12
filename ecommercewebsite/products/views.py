@@ -63,11 +63,10 @@ class ProductDetailSlugView(DetailView):
 
 class ProductSearchView(ListView):
     template_name = "products/product_list.html"
-    queryset = Product.objects.all()
     context_object_name = "products_list"
 
 
-    def get(self, request, *args, **kwargs):
-        ans=super(ProductSearchView,self).get(request,*args,**kwargs)
-        print(ans)
-        return ans
+    def get_queryset(self):
+        queryset=Product.objects.filter(title__icontains=self.request.GET.get('searchQuery',''))
+        print(queryset)
+        return queryset

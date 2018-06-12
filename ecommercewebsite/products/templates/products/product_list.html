@@ -3,17 +3,52 @@
 
 {% block body %}
 
-{% for currproduct in products_list %}
 
-{{ currproduct }}
+{% if request.GET.searchQuery %}
+Results for {{ request.GET.searchQuery }}
+{% endif %}
 
-<a href="{% url 'product:detail' currproduct.slug %}">View</a>
-<br/>
-<a href="{{ currproduct.get_image_url }}">See image</a>
+<style>
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-<br/>
-<br/>
-{% endfor %}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="container">'
+
+    <div class="row">
+
+        {% for currproduct in products_list %}
+
+
+        <div class="column col-lg-4 col-sm-12" style="margin: 4%">
+
+            <img src="{{ currproduct.get_image_url }}" style="width: 100%" >
+            {{ currproduct }}
+            {{ currproduct.description }}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem est labore mollitia possimus, quibusdam recusandae reiciendis sint vel voluptate.
+            <br/>
+            <a href="{% url 'product:detail' currproduct.slug %}">View product</a>
+            <br/>
+            <a href="{{ currproduct.get_image_url }}">See Full size image</a>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+
+
+</div>
 
 
 {% endblock %}

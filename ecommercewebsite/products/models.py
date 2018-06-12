@@ -1,7 +1,12 @@
 from django.db import models
 
+
 from .utils import unique_slug_generator
 # Create your models here.
+import sys,os
+
+from tags.models import Tag
+
 
 from django.db.models.signals import pre_save
 
@@ -29,6 +34,7 @@ class Product(models.Model):
     image=models.ImageField(upload_to=product_directory_path,blank=True,null=True)
     active=models.BooleanField(default=True)
     featured=models.BooleanField(default=False)
+    tags = models.ManyToManyField(Tag, related_name="tagged")
 
 
     objects=ProductManager()

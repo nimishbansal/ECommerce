@@ -52,6 +52,8 @@ INSTALLED_APPS = [
 
     'accounts',
     'products',
+    'tags',
+
 
     'allauth',
     'allauth.account',
