@@ -1,0 +1,25 @@
+{% extends "base1.html" %}
+
+
+{% block body %}
+
+{% for currproduct in products_list %}
+
+{{ currproduct }}
+
+<a href="{% url 'product:detail' currproduct.slug %}">View</a>
+<br/>
+<a href="{{ currproduct.get_image_url }}">See image</a>
+
+<br/>
+<br/>
+{% endfor %}
+
+
+{% endblock %}
+
+
+
+
+
+

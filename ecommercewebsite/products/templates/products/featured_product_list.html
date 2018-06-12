@@ -1,0 +1,21 @@
+{% extends "base1.html" %}
+
+{% for product in products_list %}
+
+{{ product }}
+<a href="{% url 'detail' product.id %}">View</a>
+<br/>
+<a href="{{ product.get_image_url }}">See image</a>
+
+<br/>
+<br/>
+{% endfor %}
+
+
+
+
+
+
+
+
+

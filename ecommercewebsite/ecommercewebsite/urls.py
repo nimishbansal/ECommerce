@@ -25,7 +25,7 @@ urlpatterns = [
     re_path("^contact/",views.contact_page),
     re_path(r'^account/', include('allauth.urls')),
     re_path(r'^accounts/', include('accounts.urls')),
-    re_path(r'^products/', include('products.urls')),
+    re_path(r'^products/', include(('products.urls',"products"),namespace="product")),
     path('admin/', admin.site.urls),
 
 ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

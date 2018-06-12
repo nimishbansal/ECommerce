@@ -19,5 +19,13 @@ from django.urls import path, re_path, include
 from . import views
 
 urlpatterns = [
-    re_path(r'(?P<pk>\d+)/$',views.ProductDetailView.as_view()),
+    re_path('^$', views.ProductListView.as_view()),
+    re_path(r'^search/$', views.ProductSearchView.as_view(),name="search"),
+
+    re_path(r'^featured/$', views.ProductFeaturedListView.as_view()),
+    re_path(r'^featured/(?P<slug>[\w-]+)/$', views.ProductFeaturedDetailView.as_view()),
+
+    # re_path(r'(?P<pk>\d+)/$',views.ProductDetailView.as_view(),name="detail"),
+    re_path(r'(?P<slug>[\w-]+)/$',views.ProductDetailSlugView.as_view(),name="detail"),
+
 ]
