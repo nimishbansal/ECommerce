@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb27ecc-6420-4bc3-917d-0dc575f805f6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommercewebsite/products/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/carts/templates/carts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/carts/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/carts/templatetags/tag_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/carts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/homepageSnippets/categoryCarouselListContainer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommercewebsite/templates/homepageSnippets/categoryCarouselListSnippet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MomDadECommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MomDadECommerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommercewebsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommercewebsite/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommercewebsite/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/templates/base1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/templates/base1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommercewebsite/templates/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommercewebsite/templates/home_page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +32,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="product_details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="3795">
+              <caret line="165" selection-start-line="161" selection-end-line="165" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommercewebsite/carts/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -31,52 +62,28 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="1196">
+              <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/views.py">
+      <file leaf-file-name="home_page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_details.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="30" column="117" lean-forward="true" selection-start-line="30" selection-start-column="117" selection-end-line="30" selection-end-column="117" />
-              <folding>
-                <element signature="e#640#672#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="e#640#672#0" expanded="true" />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,7 +103,14 @@
     <findStrings>
       <find>hmm</find>
       <find>in</find>
+      <find>287</find>
+      <find>&lt;/li&gt;</find>
+      <find>Carousel</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+      <replace>&quot;,</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,16 +129,39 @@
         <option value="$PROJECT_DIR$/ecommercewebsite/accounts/urls.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/static/account/signupPage.css" />
         <option value="$PROJECT_DIR$/ecommercewebsite/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/helptext.txt" />
         <option value="$PROJECT_DIR$/ecommercewebsite/templates/base.html" />
         <option value="$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css" />
-        <option value="$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html" />
         <option value="$PROJECT_DIR$/ecommercewebsite/products/admin.py" />
-        <option value="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py" />
-        <option value="$PROJECT_DIR$/ecommercewebsite/products/models.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/products/templates/products/utils.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/products/templates/products/featured_product_detail.html" />
         <option value="$PROJECT_DIR$/ecommercewebsite/products/urls.py" />
-        <option value="$PROJECT_DIR$/ecommercewebsite/products/views.py" />
-        <option value="$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/products/templates/products/featured_product_list.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_list.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/tags/admin.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/tags/models.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/tags/templates/tags/tags.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/tags/urls.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/tags/views.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/tags/templates/tags/tag_related_products.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/account/login.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py" />
         <option value="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/carts/urls.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/carts/templates/carts/home.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/carts/models.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/carts/admin.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/carts/views.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/base1.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/products/views.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/homepageSnippets/categoryCarouselListContainer.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/homepageSnippets/categoryCarouselListSnippet.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/views.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/carts/templatetags/tag_utils.py" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/templates/home_page.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html" />
+        <option value="$PROJECT_DIR$/ecommercewebsite/products/models.py" />
       </list>
     </option>
   </component>
@@ -138,16 +175,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="499" />
-    <option name="y" value="176" />
-    <option name="width" value="630" />
-    <option name="height" value="618" />
+    <option name="x" value="220" />
+    <option name="y" value="260" />
+    <option name="width" value="760" />
+    <option name="height" value="540" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,41 +202,7 @@
               <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
               <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MomDadECommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommercewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MomDadECommerce" type="b2602c69:ProjectViewProjectNode" />
@@ -214,7 +218,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,10 +228,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecommercewebsite/products" />
+      <recent name="$PROJECT_DIR$/ecommercewebsite/products/templates/products" />
       <recent name="$PROJECT_DIR$/ecommercewebsite/templates/account" />
       <recent name="$PROJECT_DIR$/ecommercewebsite/accounts/templates/accounts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecommercewebsite/carts" />
+      <recent name="$PROJECT_DIR$/ecommercewebsite/products/templates/products" />
       <recent name="$PROJECT_DIR$/ecommercewebsite/templates/account" />
       <recent name="$PROJECT_DIR$/ecommercewebsite/accounts/templates" />
     </key>
@@ -260,22 +267,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="24" width="1323" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039154" side_tool="true" weight="0.77379096" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49960846" visible="true" weight="0.4352574" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22709475" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49960846" visible="true" weight="0.32137287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685983" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -286,24 +292,24 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22709475" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2192639" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960846" visible="true" weight="0.4352574" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960846" visible="true" weight="0.40561622" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50039154" side_tool="true" weight="0.77379096" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -315,112 +321,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="157" column="63" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#736#743#0" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="157" column="63" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#736#743#0" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#736#743#0" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/auth/models.py" />
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/auth/admin.py" />
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/auth_app/admin.py" />
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/auth_app/models.py" />
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/account/apps.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/allauth/account/utils.py">
@@ -444,64 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#736#743#0" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/media/products/bat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="3" lean-forward="true" selection-end-line="23" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/templates/accounts/user_profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -516,63 +358,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/views.py">
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/static/account/signupPagestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/helptext.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/templates/products/featured_product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/matplotlib/backends/web_backend/css/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/notebook/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="6" column="11643" selection-start-line="6" selection-start-column="11643" selection-end-line="6" selection-end-column="11643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/django/db/migrations/migration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="188" column="17" lean-forward="true" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/django/db/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/migrations/0006_product_featured.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/templates/products/featured_product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/tags/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="246">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/models.py">
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="194">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/views.py">
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/tags/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="269">
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/tags/templates/tags/tags.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/carts/templates/carts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="117" lean-forward="true" selection-start-line="30" selection-start-column="117" selection-end-line="30" selection-end-column="117" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/carts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/carts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/carts/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/tags/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="41" column="77" lean-forward="true" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/tags/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="70" column="172" selection-start-line="70" selection-start-column="172" selection-end-line="70" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/homepageSnippets/categoryCarouselListSnippet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/homepageSnippets/categoryCarouselListContainer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/carts/templatetags/tag_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/templates/products/product_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/ecommercewebsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3795">
+          <caret line="165" selection-start-line="161" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/carts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/accounts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/django/core/files/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/django/core/files/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/django/core/files/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/django/core/files/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/untitled3/lib/python3.5/site-packages/django/db/models/fields/files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="347" column="26" selection-start-line="347" selection-start-column="26" selection-end-line="347" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/base1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommercewebsite/templates/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

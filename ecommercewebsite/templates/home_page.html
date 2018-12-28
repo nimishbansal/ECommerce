@@ -1,14 +1,113 @@
 <!DOCTYPE html>
 {% extends "base1.html" %}
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home Page</title>
-</head>
-<body>
+{% load tag_utils %}
+{% block body %}
 
-Home page working correctly
+{# Carousel #}
 
-</body>
-</html>
+<script>
+    // Carousel Auto-Cycle
+    $(document).ready(function() {
+        $('#CategoryCarousel').carousel({
+            interval: 6000
+        })
+    });
+
+</script>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        {% for carousel_image in carousel_images %}
+
+        <div class="item {% if forloop.first %} active {% endif %}">
+            <img src="{{ carousel_image }}" alt="hmm">
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<hr/>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7 productsLeft" style="background-color: floralwhite;margin: 10px" >
+
+
+    {% for current_tag in tags %}
+    <h1>{{ current_tag }}</h1>
+    <br/>
+    <div class="carousel category slide" id="CategoryCarousel{{ forloop.counter }}">
+        <div class="carousel-inner">
+
+
+            {% for itemdiv in current_tag|get4 %}
+            <div class="item {% if forloop.first %}active{% endif %}">
+                <ul class="thumbnails">
+                    {% for product in current_tag.tagged.all|my_filter:forloop.counter %}
+
+                    {% url 'product:detail' product.slug as the_url %}
+
+                    {% include "homepageSnippets/categoryCarouselListSnippet.html" with product_url=the_url image_url=product.get_image_url description=product.description title=product.title %}
+
+                    {% endfor %}
+
+
+                </ul>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <nav>
+        <ul class="control-box pager">
+            <li><a data-slide="prev" href="#CategoryCarousel{{ forloop.counter }}" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+            <li><a data-slide="next" href="#CategoryCarousel{{ forloop.counter }}" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+        </ul>
+    </nav>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <hr/>
+    {% endfor %}
+
+
+
+        </div>
+
+        <div class="col-lg-4 productsRight"  style="background-color: blue;margin: 4px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi at beatae culpa harum itaque minus nostrum! Cum numquam similique veritatis? Adipisci animi at consequuntur enim laudantium maxime obcaecati quam. Aliquam, cum veniam? A accusantium aliquid consectetur dicta eum excepturi iusto quam quidem sunt tempora. Aperiam error id magni molestias nemo placeat porro ratione sed vitae voluptatum. A dicta earum expedita facilis hic illum laborum tenetur. Aliquam doloremque eum explicabo iure, magnam, nesciunt, non pariatur porro praesentium quia reiciendis tenetur totam velit. Accusantium architecto atque dolore impedit ipsum iste libero, modi nemo numquam odio perspiciatis quae quisquam sapiente sunt tempora.
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

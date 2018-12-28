@@ -31,7 +31,7 @@ class Product(models.Model):
     title=models.CharField(max_length=120)
     description=models.TextField()
     price=models.DecimalField(max_digits=20,decimal_places=2)
-    image=models.ImageField(upload_to=product_directory_path,blank=True,null=True)
+    image=models.ImageField(upload_to=product_directory_path,blank=True,null=True,default="products/hmm.png")
     active=models.BooleanField(default=True)
     featured=models.BooleanField(default=False)
     tags = models.ManyToManyField(Tag, related_name="tagged")
@@ -55,4 +55,9 @@ def product_pre_save_receiver(sender,instance,*args,**kwargs):
     if not instance.slug:
         instance.slug=unique_slug_generator(instance)
 
+
+
 pre_save.connect(product_pre_save_receiver,sender=Product)
+
+
+from django.db.models.fields.files import ImageFieldFile

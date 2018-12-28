@@ -11,8 +11,6 @@ hehehe  {{ object }}
 
 
 <img src="{{ object.get_image_url }}"/>
-
-</body>
-
+<a href="{% url 'products:AddToCart' slug=object.slug %}"><img src="https://www.netblazon.com/images/posts/addtocartbuttons/button4_red_addtocart.png"></a>
 </body>
 </html>

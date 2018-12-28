@@ -3,6 +3,9 @@
 {% load i18n %}
 {% load account socialaccount %}
 
+{% if self.request.user %}
+well you are authenticated  as {{ self.request.user }}
+{% endif %}
 {% block head_title %}{% trans "Sign In" %}{% endblock %}
 
 {% block content %}

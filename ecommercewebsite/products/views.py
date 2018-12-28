@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import DetailView, ListView
@@ -67,6 +68,6 @@ class ProductSearchView(ListView):
 
 
     def get_queryset(self):
-        queryset=Product.objects.filter(title__icontains=self.request.GET.get('searchQuery',''))
+        queryset=Product.objects.filter(Q(title__icontains=self.request.GET.get('searchQuery',''))|Q(description__icontains=self.request.GET.get('searchQuery',''))|Q(tags__title__icontains=self.request.GET.get('searchQuery','')))
         print(queryset)
         return queryset

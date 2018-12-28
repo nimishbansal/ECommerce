@@ -1,0 +1,14 @@
+
+
+<li class="col-sm-3">
+    <div class="fff">
+        <div class="thumbnail">
+            <a href="{% if product_url %}{{ product_url }}{% endif %}"><img src="{% if image_url %}{{ image_url }}{% endif %}" width="100%" alt="image na mili"></a>
+        </div>
+        <div class="caption">
+            <h4>{% if title %}{{ title }}{% endif %}</h4>
+            <p>{% if description %}{{ description }}{% endif %}</p>
+            <a class="btn btn-mini" href="#">» Read More</a>
+        </div>
+    </div>
+</li>

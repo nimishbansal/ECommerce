@@ -27,6 +27,8 @@ urlpatterns = [
                   re_path(r'^accounts/', include('accounts.urls')),
                   re_path(r'^products/', include(('products.urls',"products"),namespace="product")),
                   re_path(r'^tags/', include(('tags.urls', "tags"), namespace="tags")),
+                  re_path(r'^carts/', include(('carts.urls', "carts"), namespace="carts")),
+
                   path('admin/', admin.site.urls),
 
               ]+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

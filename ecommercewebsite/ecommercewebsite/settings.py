@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'accounts',
     'products',
     'tags',
+    'carts',
 
 
     'allauth',
@@ -62,6 +63,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.google',
     # 'allauth.socialaccount.providers.facebook',
 
+
+    'rest_framework',
 
 ]
 
@@ -163,3 +166,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 ACCOUNT_AUTHENTICATION_METHOD = "username_email"
 ACCOUNT_FORMS = {'signup': 'accounts.forms.CustomizedSignupForm'}
+
+
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
